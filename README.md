@@ -1,8 +1,8 @@
 P5JS via TypeScript via Webpack
 --
 It's my first step with TypeScript, Webpack and JavaScript...
---
-Here it's a simple implementation to use P5JS with TypeScript and module to add manage TypeScript class.
+
+A simple implementation to use P5JS with TypeScript and module to add manage TypeScript class.
 
 About TypeScript: https://www.typescriptlang.org/
 
