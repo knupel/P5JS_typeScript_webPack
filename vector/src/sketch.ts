@@ -30,10 +30,10 @@ var sketch = (p: p5) => {
   
   p.draw = () => {
     p.background(255,0,0);
-    let px:number = p.mouseX -(w/2);
-    let py:number = p.mouseY -(h/2);
-    let pz:number = p.random(h);
-    pos.set(px,py,pz);
+    let px: number = p.mouseX;
+    let py: number = p.mouseY;
+    pos.set(px,py);
+    pos.sub(w/2,h/2);
     p.fill(0,0,0);
     p.ellipse(pos.x(),pos.y(),50,50);
   }
@@ -41,12 +41,12 @@ var sketch = (p: p5) => {
 
 // var sketchP = new p5(sketch);
 
-var sketch_truc = new p5(sketch);
+var test = new p5(sketch);
 
 let w : number = 0;
 let h : number = 0;
 
-let pos = new vec3(0,0,0);
+let pos = new vec2(0,0);
 
 
 
