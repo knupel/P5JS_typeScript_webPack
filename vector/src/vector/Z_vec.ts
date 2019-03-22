@@ -177,7 +177,7 @@ export default class vec {
   }
 
 
-   /**
+  /**
    * subtraction
    * @param s
    * @return
@@ -247,6 +247,4 @@ export default class vec {
   	//let output = new vec4(this.x_,this.y_,this.z_,this.w_);
   	return output;
   }
-
-  
 }
