@@ -34,7 +34,7 @@ var sketch = (p: p5) => {
     let py: number = p.mouseY;
     pos.set(px,py);
     pos.sub(w/2,h/2);
-    p.fill(0,0,0);
+    p.fill(0,255,0);
     p.ellipse(pos.x(),pos.y(),50,50);
   }
 }
