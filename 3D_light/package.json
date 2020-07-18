@@ -4,7 +4,7 @@
   "description": "",
   "main": "sketch.js",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "ts-loader": "^5.3.1",
